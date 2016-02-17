@@ -6,6 +6,7 @@ python study http://www.liaoxuefeng.com/
 Hello world
 
 *Basic
+-
 *File
 	File operation code 
 *Loop
