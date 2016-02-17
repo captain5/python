@@ -5,8 +5,8 @@ python study http://www.liaoxuefeng.com/
 
 Hello world
 
--Basic
--File
+Basic
+File
 	File operation code 
 -Loop
 -Set
