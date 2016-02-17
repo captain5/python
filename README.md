@@ -5,13 +5,13 @@ python study http://www.liaoxuefeng.com/
 
 ####Hello world
 
-Basic
-File
+####Basic
+####File
 	File operation code 
-Loop
-Set
-String
-Web
+####Loop
+####Set
+####String
+####Web
 CGIHTTPServer
 --------
 >run the python -m CGIHTTPServer 8000 command same menu level with cgi-bin,
