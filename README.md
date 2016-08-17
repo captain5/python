@@ -1,6 +1,6 @@
 # python
 
-what i do with python?
+what can i do with python?
 python study http://www.liaoxuefeng.com/
 
 #### Hello world
