@@ -1,17 +1,17 @@
 # python
 
-what i do with python?
+what can i do with python?
 python study http://www.liaoxuefeng.com/
 
-####Hello world
+#### Hello world
 
-####Basic
-####File
+#### basic
+#### file
 	File operation code 
-####Loop
-####Set
-####String
-####Web
+#### loop
+#### set
+#### string
+#### web
 CGIHTTPServer
 --------
 >run the python -m CGIHTTPServer 8000 command same menu level with cgi-bin,
