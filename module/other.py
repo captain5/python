@@ -13,4 +13,9 @@ hashlib.sha1(data).hexdigest()
 >>> random.random()
 0.42428021348064426
 
+python 连接字符串和数字
+a = 222
+b = '222'
+c = str(a) + b
+
 
