@@ -19,6 +19,6 @@ s.connect((HOST, PORT))
 s.sendall(request.encode())
 # receive message
 reply   = s.recv(1024)
-print('reply is: ',reply.decode())
+print('reply is: ',reply)
 # close connection
 s.close()
