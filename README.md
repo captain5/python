@@ -1,16 +1,12 @@
 # python
 
 what can i do with python?
-python study http://www.liaoxuefeng.com/
+python study 
+http://www.liaoxuefeng.com/
+http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html
 
-#### Hello world
-
-#### basic
 #### file
 	File operation code 
-#### loop
-#### set
-#### string
 #### web
 CGIHTTPServer
 --------
