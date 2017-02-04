@@ -1,0 +1,1 @@
+cxfreeze hello.py --target-dir dist --base-name win32gui
