@@ -1,0 +1,3 @@
+[console_scripts]
+funniest-joke = abc_test.command_line:main
+
