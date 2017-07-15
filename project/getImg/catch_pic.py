@@ -20,7 +20,7 @@ def getImg(html):
     x = 1
     #print imglist
     for imgurl in imglist:
-		urllib.urlretrieve(imgurl,'F:/tmp\%s.jpg' % x)
+		urllib.urlretrieve(imgurl,'F:/tmp/%s.jpg' % x)
 		x+=1
 		#定义获取几张图片
 		if x == 8:
