@@ -1,28 +1,28 @@
-# python
+# Python
 
 What can i do with python?
 
 What fascinating thing can do with Python?
-automate send mail, deal with Excel, crawler
+- automate send mail, deal with Excel, crawler
 
 
-### data analysis
-#### pandas
+### Data analysis
+- pandas
 
-### Usefult lib
+### Usefult Lib
 - requests
 
 
-### python study 
+### Python study 
 http://www.liaoxuefeng.com/
 http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html
 
 
-#### file
+#### File
 	File operation code 
 	
 	
-#### web
+#### Web
 CGIHTTPServer
 --------
 >run the python -m CGIHTTPServer 8000 command same menu level with cgi-bin,
