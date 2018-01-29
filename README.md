@@ -1,12 +1,27 @@
 # python
 
-what can i do with python?
-python study 
+What can i do with python?
+
+What fascinating thing can do with Python?
+automate send mail, deal with Excel, crawler
+
+
+### data analysis
+#### pandas
+
+### Usefult lib
+- requests
+
+
+### python study 
 http://www.liaoxuefeng.com/
 http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html
 
+
 #### file
 	File operation code 
+	
+	
 #### web
 CGIHTTPServer
 --------
