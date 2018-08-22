@@ -11,14 +11,6 @@ import urllib
 import urllib2
 import re
 
-html = Gethtml()
-reg = r'([0-1]{1}\.[0-9]{4})'
-i = re.compile(reg)
-r = re.findall(i, html)
-print("ERUUSD:\nCur   |   Open   |  Yesterday  |  Low  |  High")
-print(r)
-
-
 def Gethtml():
     #values={'user_name':'80945763@qq.com', 'pass_word':'xinxin'}
     user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:53.0) Gecko/20100101 Firefox/53.0"
@@ -32,5 +24,12 @@ def Gethtml():
     response=urllib2.urlopen(req,timeout=10)
     #print (response.read())
     return response.read()
-    #print(20*"*")
     #print(response.geturl())
+
+html = Gethtml()
+print html
+reg = r'([0-1]{1}\.[0-9]{4})'
+i = re.compile(reg)
+r = re.findall(i, html)
+print("ERUUSD:\nCur   |   Open   |  Yesterday  |  Low  |  High")
+print(r)

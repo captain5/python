@@ -19,7 +19,7 @@ def sn_form():
 @app.route('/', methods=['POST'])
 def get_sn():
 	# 需要从request对象读取表单内容：
-	sn0 = './mkxq_init_pwd -s ' + request.form("sn")
+	sn0 = './mk -s ' + request.form("sn")
 	print sn0
 	output = os.popen(sn0)
 	return '<h1> SN:\n %s </h1>' % output.read()

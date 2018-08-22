@@ -7,12 +7,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<h1>Please input url like this:\n<br>http://ubuntucd/12594/000005</h1> SN:12594/000005 <form><'
+    return '<h1>Please input url like this:\n<br>http://ubuntucd/12594</h1> SN:12594 <form><'
 
 @app.route('/<path:sn>')
 def sayHello(sn):
     print sn
-    sn0 = './mkxq_init_pwd -s ' + sn
+    sn0 = './mk -s ' + sn
     output = os.popen(sn0)
     return '<h1> SN:\n %s </h1>' % output.read()
 
