@@ -3,7 +3,9 @@
 What can i do with python?
 
 What fascinating thing can do with Python?
-- automate send mail, deal with Excel, crawler
+- automate send mail
+- deal with Excel
+- crawler
 
 
 ### Data analysis
