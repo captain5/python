@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>传智播客</title>
+</head>
+<body>
+    <form action="/login/" method="post">
+        {% csrf_token %}
+        <p>
+            <label>用户名:</label>
+            <input name="username" type="text">
+
+            <label>密码:</label>
+            <input name="pwd" type="pwd">
+
+            <input type="submit" value="提交" >
+        </p>
+    </form>
+</body>
+</html>
